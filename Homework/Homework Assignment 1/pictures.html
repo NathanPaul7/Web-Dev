@@ -24,12 +24,75 @@
 
 	}
 
+	ul{list-style-type: none;
+		background-color:black;
+		overflow:hidden;
+		margin:0 10px 0 10px;
+		padding:5px 20px 0 20px;
+		color: white;
+	  }
+
+	li{float:right;}
+
+
+	li a { padding:30px 0 30px 0;
+		   margin:5px; 	
+		   text-decoration:none;
+		   color: white;
+		   font-family:  'Arial', serif;
+		   /*line-height: 20px;*/
+		}
+
+	
+	.borderlist{ border: 1px solid white;}
+
+	.borderlist:hover{ background-color: white; 
+						text-decoration-color: black;
+		}
+
+	#backgr{background-image:url("https://s3-us-west-2.amazonaws.com/nycda-assets/posts/hero_images/000/008/677/big/rawpixel-com-358750-unsplash.jpg?1519420222");
+			height: 550px;
+			width: 100%;
+			background-repeat: no-repeat;
+
+		}
+
+	form{
+		width: 50px;
+		margin: auto;
+		
+	}
+
+
 
 	</style>
 
 
 </head>
 <body>
+
+	<ul>
+	<img src="images/logo.png" alt="brand logo" height="40" width="80" >
+		<li class="borderlist"><a href="http://www.nycda.com/students_sign">STUDENT LOGIN</a></li>
+		<li><a href="http://www.nycda.com/blog">Blog</a><li>
+		<li><a href="http://www.nycda.com/blog">Events</a></li>
+		<li><a href="http://www.nycda.com/blog">Locations</a></li>
+		<li><a href="http://www.nycda.com/blog">Programs+Courses</a></li>
+		<li><a href="http://www.nycda.com/blog">Student Services</a></li>
+</ul>
+
+	<div id ="backgr">
+	<div class="searchBox">
+		<form>
+			<input type="text" name="text" class="search" placeholder="Search the Blog">
+			<input type="submit" name="submit" class="submit" value="Search">
+		</form>
+	<div id = "box">
+		<p style= "color: yellow"> nycda blog featured post  </p>
+		<h2> 10 NETWORKING TIPS TO EARN A PAID POSITION POST-BOOTCAMP </h2>
+		<p>  It’s no secret that graduating from any coding bootcamp is a challenge. It will be one of the hardest things that someone can do in their life. What you might not know is t... Read More </p>
+	</div>	
+	</div>
 
 	<div class="img">
 
