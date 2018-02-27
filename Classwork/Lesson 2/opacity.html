@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<title> Example </title>
+</head>
+
+<style>
+	#casper:hover{opacity:0;
+	/*this will let the image of the specfic ID given disappear using #______: */
+
+	transition:ease 4s;
+	/*specifies the speed curve of the transition effect
+		ease(transition effect with a slow start, then fast, then end slowly)
+	*/
+}
+
+
+h1{/*margin-left: 300px*/
+
+margin:0 500px 0 0;
+
+}
+/*margin left is only assigned to one side while margin is assigned to all 4 properties(sides)*/
+
+#human{border:5px solid blue;
+
+width:300px;
+padding: 30 20 10 60px;
+}
+/*padding is used to generate space around an content inside of any defined border it also has 4 properties like margin*/
+
+	</style>
+
+
+<body>
+	
+
+	<h1>Example of Opacity With Images</h1>
+
+	<img src="human.jpg" id="human" width="200" height="200">
+
+	<img src="ghost.jpg" id="casper" width="200" height="200">
+	<!-- give the image an ID to be specfic when using a certain style -->
+
+</body>
+
+</html>
